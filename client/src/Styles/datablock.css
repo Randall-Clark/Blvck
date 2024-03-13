@@ -1,0 +1,35 @@
+.video-section {
+  text-align: center;
+  padding: 20px;
+  transition: all 0.5s ease-in-out;
+}
+
+.video-player {
+  max-width: 90%;
+  margin-bottom: 20px;
+}
+
+.video-timeline {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.3s ease;
+}
+
+.dot:hover,
+.dot.active {
+  background-color: #717171;
+}
+
+html {
+  scroll-behavior: smooth;
+}

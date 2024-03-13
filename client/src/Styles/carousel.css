@@ -1,0 +1,36 @@
+.video-banner-container {
+    position: relative;
+    top: 0;
+    width: 100%;
+     /* Set a max-width for your video container */
+    /* margin: auto; */
+    overflow: hidden;
+    background-color: black; /* Background of the container */
+  }
+  
+  .video-banner {
+    width: 100%;
+    height: auto; /* Maintain the aspect ratio */
+    display: block;
+  }
+  
+  .overlay-text {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    color: white; /* Adjust text color as needed */
+    padding: 20px; /* Space around the text */
+    text-align: right;
+  }
+  
+  /* Ensure the rest of the background is black */
+  body, html {
+    background-color: black;
+    height: 100%;
+    margin: 0;
+    /*padding-top: 56px;  Offset for the fixed navbar */
+  }
+  
+  /* Add media queries for responsiveness if needed */
+  

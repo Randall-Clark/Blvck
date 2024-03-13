@@ -1,0 +1,36 @@
+.navbar{
+    background-color: black;
+}
+.navbar-custom{
+  position: fixed;
+  width: 100%;
+  z-index: 1030;
+  top: 0;
+  background-color: #000;
+}
+
+.navbar-brand {
+    color: white;
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.navbar-custom .nav-link {
+    color: white;
+    font-size: 22px;
+}
+
+.navbar-nav .nav-item + .nav-item {
+    margin-left: 30px; /* Adjust the space as needed */
+}
+  
+  
+  /* Add other custom styles. Use inspect tool on the Unreal Engine website for reference if needed, but do not copy directly. */
+  
+  .navbar-custom .navbar-toggler-icon {
+    /* Custom styles for the toggler icon */
+  }
+  
+  .navbar-custom .navbar-collapse {
+    /* Custom styles for the collapse menu */
+  }
